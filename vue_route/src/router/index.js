@@ -9,11 +9,11 @@ import UserDetail from "../components/UserDetail";
 Vue.use(Router)
 
 export default new Router({
-  // 路由关系映射配置
-  routes: [
-    {path: "/home", component: Home},
-    {path: "/", component: Home},
-    {path: "/user", component: User},
-    {path: "/detail/:id", component: UserDetail},
-  ],
+    //路由关系映射配置
+    routes: [
+        {path: "/home", component: Home},
+        {path: "/", component: Home},
+        {path: "/user", component: User},
+        {path: "/detail/:id", component: UserDetail},
+    ],
 })
